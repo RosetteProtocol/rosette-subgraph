@@ -10,7 +10,7 @@ Subgraph for [Rosette protocol](https://github.com/BlossomLabs/rosette-contracts
 
 ## Schema
 
-<img width="1680" src="./schema.png">
+<img width="1680" src="./src/schema.png">
 
 ## Query example
 
