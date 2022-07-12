@@ -56,6 +56,8 @@ export function loadOrCreateFunction(
     fn.contract = contract.id;
     fn.upsertAt = timestamp.toI32();
     fn.sigHash = sig;
+    fn.cid = "";
+    fn.submitter = Bytes.empty();
 
     fn.save();
   }
