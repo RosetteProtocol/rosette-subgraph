@@ -1,0 +1,19 @@
+{
+  "name": "rosette-subgraph",
+  "license": "MIT",
+  "version": "1.0.0",
+  "scripts": {
+    "codegen": "graph codegen --output-dir src/types/",
+    "build": "graph build",
+    "manifest-goerli": "src/scripts/build-manifest.sh goerli",
+    "deploy-goerli": "src/scripts/deploy.sh blossomlabs rosette-stone goerli",
+    "draw-schema": "src/scripts/draw-schema.sh"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "^0.28.0",
+    "@graphprotocol/graph-ts": "^0.26.0"
+  },
+  "devDependencies": {
+    "mustache": "^4.2.0"
+  }
+}

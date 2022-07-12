@@ -1,0 +1,23 @@
+type RosetteStone @entity {
+  id: ID!
+  address: Bytes!
+  contracts: [Contract!]! @derivedFrom(field: "rosetteStone")
+}
+
+type Contract @entity {
+  id: ID!
+  rosetteStone: RosetteStone!
+  scope: Bytes!
+  functions: [Function!]! @derivedFrom(field: "contract")
+}
+
+type Function @entity {
+  id: ID!
+  contract: Contract!
+  upsertAt: Int!
+  sigHash: Bytes!
+  cid: String!
+  submitter: Bytes!
+  abi: String
+  notice: String
+}

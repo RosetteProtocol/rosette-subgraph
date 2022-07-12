@@ -1,0 +1,33 @@
+specVersion: 0.0.4
+description: Rosette Stone subgraph
+features:
+  - fullTextSearch
+  - ipfsOnEthereumContracts
+repository: https://github.com/BlossomLabs/rosette-playground
+schema:
+  file: ./src/schema.graphql
+dataSources:
+  - kind: ethereum/contract
+    name: RosetteStone
+    network: {{network}}
+    source:
+      address: "{{RosetteStone_Address}}"
+      abi: RosetteStone
+      startBlock: {{RosetteStone_StartBlock}}
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.6
+      language: wasm/assemblyscript
+      file: ./src/mappings/rosetteStone.ts
+      entities:
+        - RosetteStone
+        - Contract
+        - Function
+      abis:
+        - name: RosetteStone
+          file: ./abis/{{RosetteStone_ABI}}.json
+      eventHandlers:
+        - event: EntryUpserted(indexed bytes32,indexed bytes4,address,bytes)
+          handler: handleEntryUpserted
+        - event: EntryRemoved(indexed bytes32,indexed bytes4)
+          handler: handleEntryRemoved
