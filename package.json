@@ -6,7 +6,9 @@
     "codegen": "graph codegen --output-dir src/types/",
     "build": "graph build",
     "manifest-goerli": "src/scripts/build-manifest.sh goerli",
+    "manifest-gnosis": "src/scripts/build-manifest.sh gnosis",
     "deploy-goerli": "src/scripts/deploy.sh blossomlabs rosette-stone goerli",
+    "deploy-gnosis": "src/scripts/deploy.sh blossomlabs rosette-stone gnosis",
     "draw-schema": "src/scripts/draw-schema.sh"
   },
   "dependencies": {

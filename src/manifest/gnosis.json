@@ -1,0 +1,6 @@
+{
+  "network": "xdai",
+  "RosetteStone_Address": "0x65921215c11448B9080d8AfE46fF0F3b030Cd7FF",
+  "RosetteStone_StartBlock": 23146090,
+  "RosetteStone_ABI": "gnosis_RosetteStone"
+}
