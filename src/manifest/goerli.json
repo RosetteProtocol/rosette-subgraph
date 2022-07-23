@@ -1,6 +1,6 @@
 {
   "network": "goerli",
-  "RosetteStone_Address": "0x7e18c76aa26bd6bd04196e34c93a925498a5d0f1",
-  "RosetteStone_StartBlock": 7210172,
+  "RosetteStone_Address": "0xe0cEf081baB0Db3C20397073Fb4131ee313cbE85",
+  "RosetteStone_StartBlock": 7278002,
   "RosetteStone_ABI": "goerli_RosetteStone"
 }

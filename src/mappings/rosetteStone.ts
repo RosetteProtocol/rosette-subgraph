@@ -1,4 +1,4 @@
-import { ipfs, json, store } from "@graphprotocol/graph-ts";
+import { store } from "@graphprotocol/graph-ts";
 
 import {
   EntryUpserted,
@@ -16,15 +16,6 @@ export function handleEntryUpserted(event: EntryUpserted): void {
   );
 
   const contentId = event.params.cid.toString();
-  const data = ipfs.cat(contentId);
-
-  if (data !== null) {
-    const fnData = json.fromBytes(data).toObject();
-    const abi = fnData.get("abi");
-    const notice = fnData.get("notice");
-    fn.abi = abi ? abi.toString() : null;
-    fn.notice = notice ? notice.toString() : null;
-  }
 
   fn.cid = contentId;
   fn.submitter = event.params.submitter;

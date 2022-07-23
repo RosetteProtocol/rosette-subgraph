@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@graphprotocol/graph-cli': ^0.28.3
+  '@graphprotocol/graph-cli': ^0.28.0
   '@graphprotocol/graph-ts': ^0.26.0
   mustache: ^4.2.0
 
@@ -248,27 +248,27 @@ packages:
   /@types/concat-stream/1.6.1:
     resolution: {integrity: sha512-eHE4cQPoj6ngxBZMvVf6Hw7Mh4jMW4U9lpGmS5GBPB9RYxlFg+CHaVN7ErNY4W9XfLIEn20b4VDYaIrbq0q4uA==}
     dependencies:
-      '@types/node': 8.10.66
+      '@types/node': 18.0.3
     dev: false
 
   /@types/connect/3.4.35:
     resolution: {integrity: sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==}
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 18.0.3
     dev: false
 
   /@types/express-serve-static-core/4.17.29:
     resolution: {integrity: sha512-uMd++6dMKS32EOuw1Uli3e3BPgdLIXmezcfHv7N4c1s3gkhikBplORPpMq3fuWkxncZN1reb16d5n8yhQ80x7Q==}
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 18.0.3
       '@types/qs': 6.9.7
       '@types/range-parser': 1.2.4
     dev: false
 
   /@types/form-data/0.0.33:
-    resolution: {integrity: sha1-yayFsqX9GENbjIXZ7LUObWyJP/g=}
+    resolution: {integrity: sha512-8BSvG1kGm83cyJITQMZSulnl6QV8jqAGreJsc5tPu1Jq0vTSOiY/k24Wx82JRpWwZSqrala6sd5rWi6aNXvqcw==}
     dependencies:
-      '@types/node': 8.10.66
+      '@types/node': 18.0.3
     dev: false
 
   /@types/lodash/4.14.182:
@@ -1087,7 +1087,7 @@ packages:
     dev: false
 
   /ethjs-unit/0.1.6:
-    resolution: {integrity: sha1-xmWSHkduh7ziqdWIpv4EBbLEFpk=}
+    resolution: {integrity: sha512-/Sn9Y0oKl0uqQuvgFk/zQgR7aw1g36qX/jzSQ5lSwlO0GigPymk4eGQfeNTD03w1dPOqfz8V77Cy43jH56pagw==}
     engines: {node: '>=6.5.0', npm: '>=3'}
     dependencies:
       bn.js: 4.11.6
@@ -1131,7 +1131,7 @@ packages:
     dev: false
 
   /extsprintf/1.3.0:
-    resolution: {integrity: sha1-lpGEQOMEGnpBT4xS48V06zw+HgU=}
+    resolution: {integrity: sha512-11Ndz7Nv+mvAC1j0ktTa7fAb0vLyGGX+rMHNBYQviQDGU0Hw7lhctJANqbPhu9nV9/izT/IntTgZ7Im/9LJs9g==}
     engines: {'0': node >=0.6.0}
     dev: false
 
@@ -2224,7 +2224,7 @@ packages:
     dev: false
 
   /number-to-bn/1.7.0:
-    resolution: {integrity: sha1-uzYjWS9+X54AMLGXe9QaDFP+HqA=}
+    resolution: {integrity: sha512-wsJ9gfSz1/s4ZsJN01lyonwuxA1tml6X1yBDnfpMglypcBRFZZkus26EdPSlqS5GJfYddVZa22p3VNb3z5m5Ig==}
     engines: {node: '>=6.5.0', npm: '>=3'}
     dependencies:
       bn.js: 4.11.6
@@ -3006,7 +3006,7 @@ packages:
     dev: false
 
   /verror/1.10.0:
-    resolution: {integrity: sha1-OhBcoXBTr1XW4nDB+CiGguGNpAA=}
+    resolution: {integrity: sha512-ZZKSmDAEFOijERBLkmYfJ+vmk3w+7hOLYDNkRCuRuMJGEmqYNCNLyBBFwWKVMhfwaEF3WOd0Zlw86U/WC/+nYw==}
     engines: {'0': node >=0.6.0}
     dependencies:
       assert-plus: 1.0.0
