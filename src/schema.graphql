@@ -18,6 +18,4 @@ type Function @entity {
   sigHash: Bytes!
   cid: String!
   submitter: Bytes!
-  abi: String
-  notice: String
 }
