@@ -21,7 +21,6 @@ The example show how to query a list of Gardens.
     functions {
         id
         cid
-        notice
         sigHash
         submitter
         upsertAt
